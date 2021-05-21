@@ -1,0 +1,18 @@
+.MainCard {
+  width: 250px;
+  height: 200px;
+  background-color: #191e2b;
+  text-align: center;
+}
+.cardcontainer {
+  display: flex;
+  margin: 5vh auto;
+  justify-content: space-evenly;
+}
+.footer {
+  height: 10vh;
+  background-color: #191e2b;
+}
+a {
+  text-decoration: none;
+}

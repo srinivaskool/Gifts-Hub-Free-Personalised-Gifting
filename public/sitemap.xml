@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://giftshub.live/</loc>
+  <lastmod>2021-05-21T03:08:01+00:00</lastmod>
+</url>
+<url>
+  <loc>https://giftshub.live/aboutus</loc>
+  <lastmod>2021-05-21T03:08:01+00:00</lastmod>
+</url>
+<url>
+  <loc>https://giftshub.live/recommendedhome</loc>
+  <lastmod>2021-05-21T03:08:01+00:00</lastmod>
+</url>
+<url>
+  <loc>https://giftshub.live/valentinehome</loc>
+  <lastmod>2021-05-21T03:08:01+00:00</lastmod>
+</url>
+<url>
+  <loc>https://giftshub.live/home</loc>
+  <lastmod>2021-05-21T03:08:01+00:00</lastmod>
+</url>
+<url>
+  <loc>https://giftshub.live/samplegifts</loc>
+  <lastmod>2021-05-21T03:08:01+00:00</lastmod>
+</url>
+<url>
+  <loc>https://giftshub.live/login</loc>
+  <lastmod>2021-05-21T03:08:01+00:00</lastmod>
+</url>
+<url>
+  <loc>https://giftshub.live/scheduledlive/main/:slug</loc>
+  <lastmod>2021-05-21T03:08:01+00:00</lastmod>
+</url>
+<url>
+  <loc>https://giftshub.live/ContinuePack/:slug</loc>
+  <lastmod>2021-05-21T03:08:01+00:00</lastmod>
+</url>
+<url>
+  <loc>https://giftshub.live/userpackspage</loc>
+  <lastmod>2021-05-21T03:08:01+00:00</lastmod>
+</url>
+</urlset>

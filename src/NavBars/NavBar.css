@@ -1,0 +1,107 @@
+#mainNav {
+  padding-top: 0.3rem !important;
+  padding-bottom: 0.3rem !important;
+}
+.navbar-nav li a {
+  color: black;
+}
+#navbarResponsive .navbar-nav li a {
+  color: black !important;
+}
+#page-top
+  .navbar
+  .container
+  .navbar-shrink
+  .container
+  .nav-bar
+  #navbarResponsive
+  .navbar-nav
+  li
+  a {
+  color: white !important;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.column {
+  flex-direction: column;
+}
+.nav-title {
+  font-size: 10px !important;
+  color: #7f7575 !important;
+}
+#mainNav .navbar-toggler {
+  padding: 0.75rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #fdc673;
+  border: 0;
+}
+#mainNav .navbar-brand {
+  color: #fed136;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+#mainNav .navbar-brand img {
+  height: 1.5rem;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.95rem;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(66 66 66);
+}
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: none;
+    background-color: transparent;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.5em;
+    transition: font-size 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand img {
+    height: 2rem;
+    transition: height 0.3s ease-in-out;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: linear-gradient(#fdc46f, #f9deb6);
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+  }
+  #mainNav.navbar-shrink .navbar-brand svg,
+  #mainNav.navbar-shrink .navbar-brand img {
+    height: 1.5rem;
+  }
+  #mainNav .navbar-nav .nav-item {
+    margin-right: 1rem;
+  }
+  #mainNav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+}
+.dropdown-menu,
+.dropdown-menu-right,
+.dropdown-secondary {
+  background: #fb6e6e !important;
+  border: 0px !important;
+}
+.giftshublogoimg {
+  height: 50px !important;
+}

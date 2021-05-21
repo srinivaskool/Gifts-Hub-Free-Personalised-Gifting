@@ -1,0 +1,21 @@
+.npackselectcard {
+  box-shadow: none !important;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.npackselectcardimg {
+  border-radius: 5px;
+}
+
+.npackselectcardtitle {
+  padding: 7px 0px 0px 0px;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.shadow-none {
+  box-shadow: none !important;
+  padding: 10px;
+  border-radius: 5px;
+}

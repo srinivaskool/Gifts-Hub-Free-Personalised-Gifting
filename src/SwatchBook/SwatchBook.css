@@ -1,0 +1,191 @@
+.swatchticket {
+  width: 150px;
+  height: 420px;
+  position: absolute;
+  transform-origin: 25% 90%;
+  top: 80px;
+  left: 42%;
+  transition: all 0.5s linear;
+  border-radius: 5px;
+  box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.2),
+    12px 12px 20px rgba(0, 0, 0, 0.6), inset 2px 2px 0 rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  text-align: center;
+  font-size: 3.5em;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Verdana;
+}
+.swatchmaindiv {
+  margin: 0;
+  overflow: hidden;
+  height: 900px;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/update-image.appspot.com/o/imp%2Fegg_shell.jpg?alt=media&token=c32757c0-9119-4740-beb5-ea90c327aec9);
+}
+.swatchH4 {
+  font-size: 14px;
+  padding: 10px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px rgba(225, 225, 225, 0.1);
+  font-weight: bold;
+}
+.swatchH3 {
+  font-family: Goldman;
+  font-size: 4rem;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.swatchH6 {
+  font-size: 10px;
+  font-weight: bold;
+}
+.swatchH2 {
+  font-size: 26px;
+  transform: rotate(-90deg);
+  width: 300px;
+  position: relative;
+  /* top: 170px; */
+  bottom: -50%;
+  right: 40px;
+  font-weight: bold;
+}
+.swatchcircle {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: linear-gradient(135deg, #dddddd 0%, #58535e 48%, #889396 100%);
+  position: relative;
+  bottom: -62.5%;
+  left: 0px;
+}
+#swatchticket12 {
+  background-color: #000;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/update-image.appspot.com/o/imp%2Fdark_leather.jpg?alt=media&token=4b9dcd4a-5ccc-40d0-8b01-3683722cb985");
+}
+.swatchAnalogClock {
+  width: 100%;
+  position: absolute;
+  top: 24%;
+  left: 0;
+}
+@media only screen and (max-width: 600px) {
+  .swatchticket {
+    width: 65px;
+    height: 182px;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    top: 25px;
+    box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.2),
+      6px 6px 10px rgba(0, 0, 0, 0.6), inset 1px 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .swatchmaindiv {
+    height: 390px;
+  }
+  .swatchH4 {
+    font-size: 5px;
+    padding: 5px;
+  }
+  .swatchH3 {
+    font-size: 2rem;
+  }
+  .swatchH6 {
+    font-size: 6px;
+  }
+  .swatchH2 {
+    font-size: 12px;
+    bottom: -43%;
+    right: 100px;
+  }
+  .swatchcircle {
+    width: 10px;
+    height: 10px;
+    bottom: -50%;
+  }
+  .swatchAnalogClock {
+    top: 27.5%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .swatchticket {
+    width: 90px;
+    height: 260px;
+    top: 40px;
+    font-size: 2em;
+    padding-top: 13px;
+    padding-left: 7px;
+    padding-right: 7px;
+    box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.2),
+      8px 8px 14px rgba(0, 0, 0, 0.6),
+      inset 1.5px 1.5px 0 rgba(255, 255, 255, 0.1);
+  }
+  .swatchmaindiv {
+    height: 540px;
+  }
+  .swatchH4 {
+    font-size: 8px;
+    padding: 6.55px;
+  }
+
+  .swatchH3 {
+    font-size: 3rem;
+  }
+
+  .swatchH6 {
+    font-size: 7px;
+  }
+
+  .swatchH2 {
+    font-size: 17px;
+    bottom: -46%;
+    right: 82px;
+  }
+  .swatchcircle {
+    width: 13px;
+    height: 13px;
+    bottom: -58%;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  .swatchticket {
+    width: 120px;
+    height: 340px;
+    top: 60px;
+    font-size: 2.5em;
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.2),
+      10px 10px 16px rgba(0, 0, 0, 0.6),
+      inset 1.75px 1.75px 0 rgba(255, 255, 255, 0.1);
+  }
+  .swatchmaindiv {
+    height: 720px;
+  }
+  .swatchH4 {
+    font-size: 11px;
+    padding: 8px;
+  }
+
+  .swatchH3 {
+    font-size: 3.5rem;
+  }
+
+  .swatchH6 {
+    font-size: 10px;
+  }
+
+  .swatchH2 {
+    font-size: 22px;
+    bottom: -54%;
+    right: 50px;
+  }
+  .swatchcircle {
+    width: 17px;
+    height: 17px;
+    bottom: -60%;
+  }
+}

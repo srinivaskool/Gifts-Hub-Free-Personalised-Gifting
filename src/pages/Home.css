@@ -1,0 +1,33 @@
+.inputmodal {
+  background-image: linear-gradient(#f33f3f, 45%, #f9deb6);
+  padding: 0px 0px 20px 10px;
+  border-radius: 5px;
+}
+.createvalentinesdaypack {
+  border: 2px solid#f36969 !important;
+  outline: none !important;
+  cursor: pointer;
+  color: #f36969 !important;
+  font-size: 16px !important;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px 18px;
+  letter-spacing: 0.25px;
+  background: linear-gradient(90deg, #f36969 50%, #fff 0);
+  background-size: 210% 100%;
+  background-position: 100% 100%;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.createvalentinesdaypack:hover {
+  background-position: left bottom;
+  color: #ffffff !important;
+}
+.loadanim {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,87 @@
+.magazineMaindiv {
+  width: 600px;
+  height: 800px;
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 20px solid #e90606;
+  box-shadow: inset 0 0 0 2px #ffffff;
+  margin-bottom: 20px;
+}
+
+.magazineHot {
+  color: #e9e77e;
+  font-size: 2rem;
+  font-family: Roboto Slab;
+  font-weight: 500;
+  margin-bottom: 5px;
+  transform: scale(1, 1.5);
+}
+.magazineBuzz {
+  color: #e90606;
+  font-size: 3rem;
+  font-family: Roboto Slab;
+  font-weight: 500;
+  margin-bottom: 10px;
+  transform: scale(1, 1.4);
+  -webkit-text-stroke: 1px #ffffff;
+}
+.magazineName {
+  color: #e9e77e;
+  font-size: 2.2rem;
+  font-family: "Times New Roman";
+  font-weight: 500;
+  line-height: 1;
+  border-top: 2px solid #ffffff;
+}
+.magazineText {
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-family: "Times New Roman";
+  font-weight: 500;
+  line-height: 1;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+  margin-bottom: 2px;
+}
+.magazineBarcode {
+  margin-top: 2%;
+  width: 80px;
+  background-color: #ffffff;
+}
+.magazineDate {
+  color: #000;
+  margin-top: -20px;
+  font-weight: bold;
+  font-size: 15px;
+}
+@media only screen and (max-width: 630px) {
+  .magazineMaindiv {
+    width: 330px;
+    height: 440px;
+    border: 10px solid #e90606;
+    box-shadow: inset 0 0 0 1px #ffffff;
+  }
+  .magazineHot {
+    font-size: 1rem;
+  }
+  .magazineBuzz {
+    font-size: 1.5rem;
+  }
+  .magazineName {
+    font-size: 1.1rem;
+    border-top: 1px solid #ffffff;
+  }
+  .magazineText {
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+  }
+  .magazineBarcode {
+    width: 40px;
+  }
+  .magazineDate {
+    font-size: 7px;
+    margin-top: -15px;
+  }
+}

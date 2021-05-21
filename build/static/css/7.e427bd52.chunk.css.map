@@ -1,0 +1,1 @@
+{"version":3,"sources":["AboutQuiz.css"],"names":[],"mappings":"AAAA,uBACE,cACF","file":"7.e427bd52.chunk.css","sourcesContent":[".questions .card:hover {\r\n  cursor: pointer;\r\n}\r\n"]}

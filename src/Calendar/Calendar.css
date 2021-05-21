@@ -1,0 +1,111 @@
+body {
+  background: #ccc;
+}
+.days {
+  color: #000000 !important;
+  font-weight: bold;
+  width: 40px;
+  text-align: left;
+  padding-left: 10px;
+}
+.prev_date {
+  opacity: 0.5;
+}
+.next_date {
+  opacity: 0.5;
+}
+table {
+  width: 100%;
+  height: 100%;
+
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+.tablejan {
+  border-right: 10px solid #f00606;
+}
+.tablefeb {
+  border-left: 10px solid #ff0202;
+}
+
+#month {
+  /* background: #ff3c31; */
+
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+.month {
+  width: 100%;
+  color: rgb(236, 20, 20);
+  font: 2em/1em "Advent Pro", sans-serif;
+  /* height: 45px; */
+}
+
+.newWeeks {
+  /* background: #fff; */
+  /* height: 30px; */
+  font: "Advent Pro", sans-serif;
+  color: #ff3c31;
+  text-align: center;
+  width: 100%;
+  font-size: 0.9rem !important;
+}
+.weekname {
+  width: 40px;
+  text-align: left;
+}
+.newWeek1 {
+  margin-top: 10px;
+  /* height: 30px; */
+  width: 100%;
+  text-align: center;
+  font: 500 "Advent Pro", sans-serif;
+  color: #212121;
+}
+.week1 td {
+  /* height: 30px; */
+  width: 15.65%;
+  text-align: center;
+  font: 500 "Advent Pro", sans-serif;
+  color: #212121;
+}
+
+.week2 td {
+  /* height: 30px; */
+  width: 15.65%;
+  text-align: center;
+  font: 500 "Advent Pro", sans-serif;
+  color: #212121;
+}
+
+.week3 td {
+  /* height: 30px; */
+  width: 15.65%;
+  text-align: center;
+  font: 500 "Advent Pro", sans-serif;
+  color: #212121;
+}
+
+.week4 td {
+  /* height: 30px; */
+  width: 15.65%;
+  text-align: center;
+  font: 500 "Advent Pro", sans-serif;
+  color: #212121;
+}
+
+.week5 td {
+  /* height: 30px; */
+  width: 15.65%;
+  text-align: center;
+  font: 500 "Advent Pro", sans-serif;
+  color: #212121;
+}
+
+.col-md-3 {
+  margin: 10px auto;
+}

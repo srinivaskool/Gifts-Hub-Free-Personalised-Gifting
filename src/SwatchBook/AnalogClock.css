@@ -1,0 +1,144 @@
+.AnalogClock_maindiv {
+  background: transparent;
+}
+.AnalogClock_section {
+  margin: auto;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 3% solid #000;
+  border-radius: 50%;
+  margin-top: 3%;
+  box-shadow: inset 40px 40px 90px rgba(0, 0, 0, 0.2),
+    inset 10px 10px 30px rgba(0, 0, 0, 0.5), 20px 20px 30px rgba(0, 0, 0, 0.4),
+    40px 40px 60px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 1;
+}
+
+.AnalogClock_section:before {
+  content: "";
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  display: block;
+  background: transparent;
+  border: 2% solid white;
+}
+
+/* highlight at top left of black outline */
+.AnalogClock_section:after {
+  content: "";
+  width: 105%;
+  height: 105%;
+  border-radius: 50%;
+  display: block;
+  background: transparent;
+  position: absolute;
+  top: -2.5%;
+  left: -2.5%;
+  box-shadow: -3px -3px 9px rgba(255, 255, 255, 0.8);
+}
+
+.AnalogClock_label {
+  position: absolute;
+  top: 19%;
+  left: 46%;
+  font-size: 10px;
+}
+
+#AnalogClock_hour-hand,
+#AnalogClock_second-hand,
+#AnalogClock_minute-hand {
+  width: 25%;
+  height: 2%;
+
+  position: absolute;
+  top: 40%;
+  left: calc(50% - 3.5%);
+  z-index: 2;
+  transform-origin: 16%;
+}
+
+#AnalogClock_hour-hand:after,
+#AnalogClock_second-hand:after,
+#AnalogClock_minute-hand:after {
+  content: "";
+  background: #000;
+  width: 5%;
+  height: 5%;
+  border-radius: 50%;
+  z-index: 3;
+  position: absolute;
+  top: -1.5%;
+  left: 1.5%;
+}
+
+#AnalogClock_hour-hand {
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+  box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+#AnalogClock_minute-hand {
+  width: 40%;
+  height: 1%;
+  top: 40.5%;
+  transform-origin: 10%;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+#AnalogClock_minute-hand:before {
+  content: "";
+  width: 4.5%;
+  height: 4.5%;
+  border-radius: 50%;
+  z-index: 99;
+  position: absolute;
+  top: -1.7%;
+  left: 1.7%;
+  box-shadow: -2px -2px 7px rgba(255, 255, 255, 0.6);
+}
+
+#AnalogClock_minute-hand:after {
+  top: -2%;
+}
+
+#AnalogClock_second-hand {
+  width: 35%;
+  height: 0.5%;
+  top: 40.75%;
+  transform-origin: 11.5%;
+  box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.4);
+}
+#AnalogClock_second-hand:after {
+  top: -2.25%;
+}
+
+@media only screen and (max-width: 600px) {
+  .AnalogClock_section {
+    width: 52px;
+    height: 52px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .AnalogClock_section {
+    width: 72px;
+    height: 72px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  .AnalogClock_section {
+    width: 96px;
+    height: 96px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .AnalogClock_section {
+    width: 120px;
+    height: 120px;
+  }
+}

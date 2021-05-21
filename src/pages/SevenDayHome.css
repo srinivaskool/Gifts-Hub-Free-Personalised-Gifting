@@ -1,0 +1,34 @@
+.card-body {
+  background: none !important;
+  flex: 1 1 auto;
+  min-height: 1px;
+  /* padding: 1.25rem; */
+}
+.border {
+  border: 2px solid #fcc87a !important;
+  border-radius: 5px;
+}
+.recommendedcard {
+  background: rgb(252 200 122) !important;
+}
+button.modal-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 15px 30px;
+  background-color: #f55858;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+button.main-button:hover {
+  background-color: #fb4646;
+}

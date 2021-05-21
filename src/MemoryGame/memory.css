@@ -1,0 +1,62 @@
+.grid-memcard {
+  position: relative;
+  background-color: #f95e5e;
+  border-radius: 5px;
+}
+
+.memcard {
+  background-color: rgb(252 200 122) !important;
+  border-radius: 0;
+  width: 100%;
+  height: auto;
+  border: 1px solid #f95e5e;
+}
+.memcard::before {
+  background-color: rgb(252 200 122) !important;
+  width: 100%;
+  height: auto;
+  /* height: 250px !important; */
+}
+.grid-memcard::after {
+  content: "";
+  background: -webkit-linear-gradient(59deg, #3a6073, #16222a);
+  /* width: 250px;
+  height: 250px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateY(0) perspective(100px);
+  transition: 0.4s;
+  backface-visibility: hidden;
+}
+.grid-img {
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center;
+  transform: rotateY(180deg) perspective(100px);
+  transition: 0.4s;
+  backface-visibility: hidden;
+  padding: 1px;
+  background-color: #f95e5e !important;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 400px) {
+  .grid-img {
+    padding: 4px;
+  }
+}
+
+.grid-memcard-show::after {
+  transform: rotateY(180deg) perspective(100px);
+  /* width: 250px;
+  height: 250px; */
+}
+.grid-memcard-show .grid-img {
+  transform: rotateY(0) perspective(100px);
+  /* width: 250px;
+  height: 250px; */
+}
+.grid-memcard-finished {
+  opacity: 0.5;
+}

@@ -1,0 +1,31 @@
+.halftitle {
+  background: linear-gradient(#f33f3f, #fff) !important;
+}
+.fulltitle {
+  background: linear-gradient(#fdc46f, #fff);
+}
+.samplegifts {
+  background: linear-gradient(#fdc46f, #fff) !important;
+}
+.samplegiftspara {
+  width: 95%;
+  text-align: justify;
+  margin: auto;
+}
+.samplemagazine {
+  transform: scale(0.9);
+  margin-left: -6%;
+}
+.samplespecialcard {
+  transform: scale(0.9);
+}
+.samplethreedcarousel {
+  height: 500px;
+}
+.samplejourney {
+  background: radial-gradient(
+    at center bottom,
+    rgb(27, 39, 53),
+    rgb(9, 10, 15)
+  );
+}

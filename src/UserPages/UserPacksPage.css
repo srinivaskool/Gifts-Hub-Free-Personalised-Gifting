@@ -1,0 +1,101 @@
+.userspacks {
+  background: linear-gradient(#fdc46f, 50%, #fcfcfc);
+}
+
+.userpackscardheader {
+  justify-content: space-between;
+  color: #fff;
+  background: linear-gradient(rgb(255 120 120), 85%, rgb(234 161 161));
+}
+.userpackspkname {
+  height: 38.5px;
+  align-items: center;
+  border: none;
+}
+.userpackspknametext {
+  color: #fdc46f;
+}
+.userpackspendingimg {
+  width: 23.5px;
+  height: 23.5px;
+  margin: 5px 11px 0 8px;
+}
+.userpacksitems {
+  font-size: 18px;
+  color: #fb6e6e;
+  margin-left: 8px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+.userpacksdoneicon {
+  fill: #fdc46f !important;
+  margin: 5px 7px;
+}
+.userpacksproceed {
+  margin-top: 25px !important;
+  border: 2px solid#fdc46f !important;
+  outline: none !important;
+  cursor: pointer;
+  color: #fdc46f !important;
+  font-size: 18px;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 6px 15px !important;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #fdc46f 50%, #fff 0);
+  background-size: 210% 100%;
+  background-position: 100% 100%;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.userpacksproceed:hover {
+  background-position: left bottom;
+  color: #ffffff !important;
+}
+#userpacksdelete {
+  border: 2px solid#fb6e6e !important;
+  outline: none !important;
+  cursor: pointer;
+  color: #fb6e6e !important;
+  font-size: 18px;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 6px 33px !important;
+  letter-spacing: 0.25px;
+  background: linear-gradient(90deg, #fb6e6e 50%, #fff 0);
+  background-size: 210% 100%;
+  background-position: 100% 100%;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+#userpacksdelete:hover {
+  background-position: left bottom;
+  color: #ffffff !important;
+}
+#userpackspreview {
+  border: 2px solid#fdc46f !important;
+  outline: none !important;
+  cursor: pointer;
+  color: #fdc46f !important;
+  font-size: 18px;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 6px 27px !important;
+  letter-spacing: 0.25px;
+  background: linear-gradient(90deg, #fdc46f 50%, #fff 0);
+  background-size: 210% 100%;
+  background-position: 100% 100%;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+#userpackspreview:hover {
+  background-position: left bottom;
+  color: #ffffff !important;
+}

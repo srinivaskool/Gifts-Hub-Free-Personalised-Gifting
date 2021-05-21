@@ -1,0 +1,50 @@
+.Newshead {
+  font-family: "TundraWeb", serif !important;
+  color: #231f20 !important;
+  margin: 0 !important;
+  opacity: 0.85;
+  text-align: justify !important;
+}
+.Newspara {
+  font-family: "TundraWeb", serif !important;
+  margin: 0 !important;
+  color: #231f20 !important;
+  opacity: 0.75;
+  text-align: justify !important;
+}
+.Newsdate {
+  font-family: oxford;
+  opacity: 0.6;
+  font-weight: 600 !important;
+
+  margin: 0 !important;
+  text-align: center !important;
+  color: #231f20 !important;
+}
+
+@media only screen and (min-width: 100px) {
+  .Newshead {
+    font-size: 2vw !important;
+  }
+  .Newspara {
+    font-size: 2vw !important;
+  }
+  .Newsdate {
+    font-size: 0.7vw !important;
+    line-height: 10px !important;
+    margin-top: 0.5vh !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Newshead {
+    font-size: 3vw !important;
+  }
+  .Newspara {
+    font-size: 2.5vw !important;
+  }
+  .Newsdate {
+    font-size: 1vw !important;
+    line-height: 4px !important;
+    margin-top: 0.1vh !important;
+  }
+}

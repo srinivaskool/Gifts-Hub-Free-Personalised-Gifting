@@ -1,0 +1,60 @@
+.HeaderBtn {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+
+  background-color: #f36969;
+  width: 200px;
+}
+
+.HeaderBtn__icon {
+  color: #ffffff;
+  font-size: large !important;
+}
+
+.HeaderBtn__title {
+  flex: 1;
+  margin-left: 5px;
+  font-size: 12px;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.HeaderBtn:hover {
+  background-color: #068dc0;
+
+  cursor: pointer;
+}
+
+.HeaderBtn.selected {
+  background-color: #f36969;
+}
+
+/* @media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 20px !important;
+  }
+  .HeaderBtn__title {
+    font-size: 12px !important;
+  }
+  h2 {
+    font-size: 12px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  h5 {
+    font-size: 16px !important;
+  }
+  h6 {
+    font-size: 8px !important;
+  }
+  h8 {
+    font-size: 12px !important;
+  }
+  p {
+    font-size: 18px !important;
+  }
+} */

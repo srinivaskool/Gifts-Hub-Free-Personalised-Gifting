@@ -1,0 +1,64 @@
+.livemainwrapper {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+
+.livemaincard {
+  width: 330px;
+  height: 330px;
+  border-radius: 15px;
+  padding: 1.5rem;
+  background: white;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  transition: 0.4s ease-out;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+.livemaincard:hover {
+  transform: translateY(30px);
+}
+.livemaincard:hover:before {
+  opacity: 1;
+}
+.livemaincard:hover .livemaininfo {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.livemaincard:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  transition: 0.5s;
+  opacity: 0;
+}
+.livemaincard img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+}
+.livemaincard .livemaininfo {
+  position: relative;
+  z-index: 3;
+  color: white;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s;
+}
+.livemaincard .livemaininfo h1 {
+  margin: 0px;
+  color: white;
+}

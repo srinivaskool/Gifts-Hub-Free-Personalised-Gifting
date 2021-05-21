@@ -1,0 +1,115 @@
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.productCardDiv {
+  background-color: #fff;
+}
+.card-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.productCardImg {
+  padding-top: 20px;
+  margin: 0 auto;
+  background: none;
+}
+.mainpgcardtxt {
+  color: #fff !important;
+  background-color: #0092e0;
+  height: 80px;
+  border: 10px solid #fff;
+  margin-bottom: -20px !important;
+  align-items: center;
+  vertical-align: middle;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.mainpgcardtxt h1 {
+  color: #fff !important;
+}
+.productCardTextDiv {
+  color: #fff !important;
+  background-color: #0092e0;
+  height: 80px;
+  border: 10px solid #fff;
+  margin-top: 20px;
+  align-items: center;
+  vertical-align: middle;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.productCardTextDiv h1 {
+  color: #fff !important;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+html {
+  font-size: 1rem;
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  html {
+    font-size: 1.0625rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  html {
+    font-size: 1.125rem;
+  }
+}
+@media (min-width: 1280px) {
+  html {
+    font-size: 1.1875rem;
+  }
+}
+@media (max-width: 576px) {
+  .xs {
+    color: red;
+    font-weight: bold;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .sm {
+    color: red;
+    font-weight: bold;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .md {
+    color: red;
+    font-weight: bold;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .lg {
+    color: red;
+    font-weight: bold;
+  }
+}
+@media (min-width: 1200px) {
+  .xl {
+    color: red;
+    font-weight: bold;
+  }
+}
+.componentcards {
+  background-color: #fff !important;
+}
