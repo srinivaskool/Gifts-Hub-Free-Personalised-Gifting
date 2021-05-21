@@ -1,11 +1,10 @@
 # Gifts-Hub-Free-Personalised-Gifting
 
-![Project Image](README_IMAGES/demo.gif)
+![Project Image](README_IMAGES\1.jpeg)
 
 <br />
 
 Gifts Hub is a free personalized virtual gifting website. This website includes different types of gifts like puzzles, games, activities. On this website, you can create a pack of gifts and we will take care of scheduling and sending the gifts to your loved one.
-
 
 ---
 
@@ -46,15 +45,17 @@ Just add photos and text can your gift is ready and you will get a sharable link
 ---
 
 ## Demo
-
+<br>
 <p align="center">
-  <img  src="README_IMAGES\Dataset_analysis.png"  > 
+  <img  src="README_IMAGES\2.jpeg"  > 
 </p>
+<br>
 <p align="center">
-  <img  src="README_IMAGES\Dataset_Splitting.png"  > 
+  <img  src="README_IMAGES\3.jpeg"  > 
 </p>
+<br>
 <p align="center">
-  <img  src="README_IMAGES\Dataset_Splitting.png"  > 
+  <img  src="README_IMAGES\4.jpeg"  > 
 </p>
 
 
@@ -96,7 +97,6 @@ This is just a sample for 3 folders indide src. All folders have the same struct
 - [React JS](https://reactjs.org/)
 - [Firebase](https://firebase.google.com/)
 
-#### [Back To The Top](#Gifts-Hub-Free-Personalised-Gifting)
 
 ---
 
@@ -105,6 +105,3 @@ This is just a sample for 3 folders indide src. All folders have the same struct
 - LinkedIn - [Srinivas K](https://www.linkedin.com/in/srinivas-konduri/)
 
 #### [Back To The Top](#Gifts-Hub-Free-Personalised-Gifting)
-
-```
-Giftshub-main
