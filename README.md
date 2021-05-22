@@ -1,6 +1,6 @@
 # Gifts-Hub-Free-Personalised-Gifting
 
-![Project Image](README_IMAGES\1.jpeg)
+![Project Image](README_IMAGES/1.jpeg)
 
 <br />
 
